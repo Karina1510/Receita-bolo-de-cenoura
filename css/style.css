@@ -1,0 +1,92 @@
+
+body {
+    font-family: Arial, sans-serif; 
+    background: #fbf53f;
+    background: linear-gradient(184deg, rgba(251, 245, 63, 1) 0%, rgba(252, 125, 70, 1) 100%);
+    color: #333; 
+    margin: 0;
+    padding: 20px;
+}
+
+.cabecalho {
+    max-width: 800px;
+    margin: 0 auto; 
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+h1, h3 {
+    text-align: center; 
+    color: #d35400; 
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee; 
+    margin: 20px 0;
+}
+
+.ingredientes img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 5px;
+    border: 2px solid #ddd;
+    margin-inline: 20px;
+    margin-right: 20px;
+}
+
+
+
+.infosprincipais {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    margin-bottom: 20px;
+    flex-wrap: wrap; 
+}
+
+.infosprincipais h2 {
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+    font-size: 1.2rem;
+    color: #565044;
+}
+
+
+.ingredientes, .passo-a-passo {
+    margin-bottom: 30px;
+}
+
+
+.ingredientes ul, .passo-a-passo ol {
+    list-style-type:none; 
+    padding: 20px;
+    margin-inline: 30px;
+    margin-right: 20px;
+
+}
+
+.ingredientes li, .passo-a-passo li {
+    background-color: #f9f9f9;
+    margin-bottom: 8px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border-left: 5px solid #d35400; 
+}
+
+/* Vídeo */
+.video {
+    text-align: center; 
+}
+
+.video iframe {
+    max-width: 100%; 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
